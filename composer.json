@@ -1,0 +1,15 @@
+{
+    "name": "hrnnd/ws03",
+    "description": "Jobseek",
+    "authors": [
+        {
+            "name": "winniethepoOhXD",
+            "email": "hannalouis2004@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Framework\\": "Framework/", "App\\": "App/"
+        }
+    }
+}
