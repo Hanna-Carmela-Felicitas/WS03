@@ -3,7 +3,7 @@
   ?>
 
 <!-- Nav -->
-    <header class="fixed top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-lg border-b border-white/20 shadow-lg">
+    <header class="fixed top-0 left-0 w-full z-50 bg-gray-900/60 backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div class="container mx-auto flex justify-between items-center py-4 px-6">
       <h1 class="text-3xl font-semibold">
           <a href="/" class="text-white">
