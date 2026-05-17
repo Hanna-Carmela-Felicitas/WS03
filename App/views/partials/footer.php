@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="bg-gray-900 text-white mt-10">
+<footer class="bg-gray-900 text-white">
     <div class="container mx-auto px-6 py-8">
         <!-- Brand -->
         <div class="text-center max-w-2xl mx-auto">

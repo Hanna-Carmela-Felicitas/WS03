@@ -3,7 +3,7 @@
 <?php loadPartial('top-banner'); ?>
 
 <section class="container mx-auto p-4 mt-4">
-    <div class="rounded-lg shadow-md bg-white border border-gray-100 p-3">
+    <div class="rounded-lg shadow-md bg-white border border-gray-100 p-3 mt-6">
         <?php loadPartial('message') ?>
         <div class="flex justify-between items-center">
             <a class="block p-4 text-purple-600 hover:text-pink-500 transition" href="/listings">

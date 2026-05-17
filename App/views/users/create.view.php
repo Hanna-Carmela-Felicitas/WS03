@@ -2,13 +2,19 @@
 <?php loadPartial('navbar'); ?>
 
 <!-- Registration Form Box -->
-<div class="min-h-screen bg-gray-50 flex justify-center items-center py-20 px-6">
+<div class="min-h-screen bg-gradient-to-br from-purple-900 via-pink-900 to-purple-950 flex justify-center items-center px-6 pt-24 pb-10">
 
-    <div class="bg-white border border-gray-100 p-8 rounded-2xl shadow-md w-full md:w-1/3">
+    <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-10 rounded-3xl shadow-2xl w-full md:w-[620px]">
 
-        <h2 class="text-4xl text-center font-bold mb-6 text-gray-800">
-            Register
-        </h2>
+        <div class="text-center mb-8">
+            <h2 class="text-4xl font-bold text-white mb-3">
+                Join CreativeHub
+            </h2>
+
+            <p class="text-gray-200">
+                Create your account and discover creative opportunities.
+            </p>
+        </div>
 
         <?php loadPartial('errors', [
             'errors' => $errors ?? []
@@ -20,7 +26,7 @@
                     type="text"
                     name="name"
                     placeholder="Full Name"
-                    class="w-full px-4 py-2 border border-gray-200 bg-gray-50 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    class="w-full px-5 py-3 rounded-2xl border border-white/20 bg-white/10 text-white placeholder-gray-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-pink-400 transition"
                     value="<?= $user['name'] ?? '' ?>"
                 />
             </div>
@@ -30,7 +36,7 @@
                     type="email"
                     name="email"
                     placeholder="Email Address"
-                    class="w-full px-4 py-2 border border-gray-200 bg-gray-50 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    class="w-full px-5 py-3 rounded-2xl border border-white/20 bg-white/10 text-white placeholder-gray-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-pink-400 transition"
                     value="<?= $user['email'] ?? '' ?>"
                 />
             </div>
@@ -40,7 +46,7 @@
                     type="text"
                     name="city"
                     placeholder="City"
-                    class="w-full px-4 py-2 border border-gray-200 bg-gray-50 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    class="w-full px-5 py-3 rounded-2xl border border-white/20 bg-white/10 text-white placeholder-gray-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-pink-400 transition"
                     value="<?= $user['city'] ?? '' ?>"
                 />
             </div>
@@ -50,7 +56,7 @@
                     type="text"
                     name="state"
                     placeholder="State"
-                    class="w-full px-4 py-2 border border-gray-200 bg-gray-50 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    class="w-full px-5 py-3 rounded-2xl border border-white/20 bg-white/10 text-white placeholder-gray-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-pink-400 transition"
                     value="<?= $user['state'] ?? '' ?>"
                 />
             </div>
@@ -60,7 +66,7 @@
                     type="password"
                     name="password"
                     placeholder="Password"
-                    class="w-full px-4 py-2 border border-gray-200 bg-gray-50 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    class="w-full px-5 py-3 rounded-2xl border border-white/20 bg-white/10 text-white placeholder-gray-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-pink-400 transition"
                     value="<?= $user['password'] ?? '' ?>"
                 />
             </div>
@@ -70,21 +76,21 @@
                     type="password"
                     name="password_confirmation"
                     placeholder="Confirm Password"
-                    class="w-full px-4 py-2 border border-gray-200 bg-gray-50 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    class="w-full px-5 py-3 rounded-2xl border border-white/20 bg-white/10 text-white placeholder-gray-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-pink-400 transition"
                 />
             </div>
 
             <button
                 type="submit"
-                class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:opacity-90 transition duration-300 text-white px-4 py-2 rounded shadow-sm"
+                class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:scale-[1.02] hover:opacity-90 transition duration-300 text-white px-4 py-3 rounded-2xl shadow-2xl font-semibold"
             >
                 Register
             </button>
 
-            <p class="mt-4 text-gray-500 text-center">
+            <p class="mt-6 text-gray-200 text-center">
                 Already have an account?
                 <a
-                    class="text-purple-600 hover:text-pink-500 transition"
+                    class="text-pink-300 hover:text-white transition"
                     href="/auth/login"
                 >
                     Login
