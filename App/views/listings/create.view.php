@@ -2,8 +2,8 @@
 <?php loadPartial('navbar'); ?>
 
     <!-- Post a Job Form Box -->
-    <section class="min-h-screen bg-gray-50 flex justify-center items-center py-20 px-6">
-      <div class="bg-white/95 backdrop-blur-md p-10 rounded-3xl shadow-2xl border border-gray-100 w-full max-w-4xl">
+    <section class="min-h-screen bg-gradient-to-br from-gray-50 via-purple-50 to-pink-50 flex justify-center items-center py-20 px-6">
+      <div class="bg-white/95 backdrop-blur-md p-10 rounded-3xl shadow-2xl hover:shadow-purple-200/50 transition duration-500 border border-gray-100 w-full max-w-4xl">
         <h2 class="text-4xl text-center font-bold mb-4">Post a Creative Opportunity</h2>
         <p class="text-gray-500 text-center mb-8">
           Share opportunities for designers, editors, artists, and creative professionals.
@@ -114,7 +114,7 @@
             />
           </div>
           <button
-            class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:opacity-90 text-white px-4 py-3 my-3 rounded-2xl shadow-lg transition duration-300 font-semibold"
+            class="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:scale-[1.02] hover:opacity-90 transition duration-300 text-white px-4 py-3 rounded-2xl shadow-lg font-semibold"
           >
             Save
           </button>
