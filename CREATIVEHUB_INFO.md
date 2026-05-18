@@ -29,41 +29,6 @@ Technologies Used
 
 Screenshots
 
-Homepage
-
-
-Login Page
-CreativeHub
-
-CreativeHub is a creative industry job portal built using PHP MVC architecture.  
-It allows users to browse creative job opportunities, register accounts, and apply for jobs through a modern glassmorphism-inspired interface.
-
-
-Features
-
-- User Authentication
-  - Login
-  - Registration
-  - Logout
-
-- Job Listings
-  - View job opportunities
-  - View detailed job information
-  - Post job listings
-  - Edit/Delete listings
-
-
-Technologies Used
-
-- PHP
-- MVC Architecture
-- Tailwind CSS
-- HTML/CSS
-- Composer
-
-
-Screenshots
-
 Landing Page
 <img width="1868" height="2726" alt="landing page" src="https://github.com/user-attachments/assets/7686ad70-6fa8-4d3a-9aae-c919fc08d8f3" />
 
