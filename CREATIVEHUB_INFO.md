@@ -44,3 +44,10 @@ Post a Job
 View Details
 <img width="1868" height="1732" alt="viewdetails" src="https://github.com/user-attachments/assets/bb1417b0-0885-4cae-92c3-3198d8403530" />
 
+Show All Button
+<img width="1868" height="2904" alt="show all button" src="https://github.com/user-attachments/assets/9c33c1e4-bb09-45d3-8402-469fdf398f50" />
+
+Error Page
+<img width="1868" height="1111" alt="error page" src="https://github.com/user-attachments/assets/1573b761-e7b3-4279-b375-df424ce0bb0d" />
+
+
